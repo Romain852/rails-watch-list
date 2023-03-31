@@ -1,1 +1,65 @@
 // Specific CSS for your home-page
+.header {
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 3px #444444;
+  background-image: image-url("homepage_cover.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  border-top-right-radius: 3pt;
+  border-top-left-radius: 3pt;
+}
+
+.subtitle {
+  color: white;
+  text-align: left;
+  padding: 10pt;
+  background-color: #000000;
+  border-bottom-left-radius: 3pt;
+  border-bottom-right-radius: 3pt;
+
+}
+
+.add-list {
+  a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 3pt;
+    background: #444444;
+    padding: 5pt;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  a:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background: #000000;
+  }
+}
+
+// .list-cards {
+//     list-style: none;
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 0 16px;
+
+//     li {
+//       border-radius: 5px;
+//       margin: 16px;
+//       background: transparent center/cover;
+//     }
+
+    // a {
+    //   font-size: 1.5rem;
+    //   color: white;
+    //   font-weight: bold;
+    //   display: block;
+    //   text-align: center;
+    //   height: 250px;
+    //   width: 300px;
+    //   padding-top: 130px;
+    //   text-decoration: none;
+    //   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4));
+    // }
+// }

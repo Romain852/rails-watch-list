@@ -1,0 +1,18 @@
+<div class="container mt-3">
+  <div class="header">
+      <h1>WELCOME TO WATCH LIST</h1>
+  </div>
+  <main>
+      <h2 class="subtitle">My Lists</h2>
+      <div class="add-list">
+        <%= link_to '📽️ ADD NEW LIST', new_list_path %>
+      </div>
+    <ul class="list-cards">
+      <% @lists.each do |list| %>
+        <li >
+          <%= link_to list.name, list_path(list) %>
+        </li>
+      <% end %>
+    </ul>
+  </main>
+</div>
