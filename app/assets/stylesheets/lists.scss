@@ -1,0 +1,73 @@
+.header {
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 3px #444444;
+  background-image: image-url("homepage_cover.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 20px;
+  border-top-right-radius: 3pt;
+  border-top-left-radius: 3pt;
+}
+
+.subtitle {
+  color: white;
+  text-align: left;
+  padding: 10pt;
+  background-color: #000000;
+  border-bottom-left-radius: 3pt;
+  border-bottom-right-radius: 3pt;
+
+}
+
+.add-list {
+  a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 3pt;
+    background: black;
+    padding: 5pt;
+    margin-top: 50pt;
+    margin-bottom: 50pt;
+  }
+  a:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background: #ce6c3d;
+    border: 1px solid #ce6c3d;
+  }
+}
+
+.list-cards {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    // padding: 16px;
+
+    li {
+      border-radius: 5px;
+      margin: 16px;
+      background: transparent center/cover;
+      // border: 1px solid black;
+      // padding: 0pt;
+    }
+
+    a {
+      font-size: 1.2rem;
+      color: white;
+      display: block;
+      text-align: center;
+      height: 150px;
+      width: 200px;
+      text-decoration: none;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5));
+      margin: auto;
+      border-radius: 5px;
+      padding: 45pt;
+    }
+    a:hover {
+      color:rgb(255, 255, 255);
+      font-size: 1.4rem;
+      box-shadow: rgba(99, 99, 99, 0.367) 0px 2px 8px 0px;
+    }
+  }
